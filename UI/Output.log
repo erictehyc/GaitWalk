@@ -1,0 +1,651 @@
+prepare_img_data : 2020-06-11 15:13:46,607 : INFO : Prediction sequence length: 30, Min. img size: 50x300
+prepare_img_data : 2020-06-11 15:13:46,607 : WARNING : Make sure the sequence length fits architecture of model
+uiparser : 2020-06-11 15:13:46,949 : DEBUG : uiname is MainWindow
+uiparser : 2020-06-11 15:13:46,951 : DEBUG : toplevel widget is MainUI
+properties : 2020-06-11 15:13:46,951 : DEBUG : setting property geometry
+properties : 2020-06-11 15:13:46,952 : DEBUG : setting property windowTitle
+uiparser : 2020-06-11 15:13:46,952 : DEBUG : push MainUI MainWindow
+uiparser : 2020-06-11 15:13:46,953 : DEBUG : push QWidget centralwidget
+properties : 2020-06-11 15:13:46,954 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:13:46,954 : DEBUG : push QWidget verticalLayoutWidget_2
+properties : 2020-06-11 15:13:46,955 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:13:46,956 : DEBUG : push QVBoxLayout vertical_video_1
+properties : 2020-06-11 15:13:46,957 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:13:46,958 : DEBUG : setting property font
+properties : 2020-06-11 15:13:46,960 : DEBUG : setting property text
+properties : 2020-06-11 15:13:46,968 : DEBUG : setting property scaledContents
+properties : 2020-06-11 15:13:46,969 : DEBUG : setting property alignment
+properties : 2020-06-11 15:13:46,969 : DEBUG : setting property wordWrap
+uiparser : 2020-06-11 15:13:46,969 : DEBUG : push QLabel text_inputVideo
+uiparser : 2020-06-11 15:13:46,970 : DEBUG : pop widget QLabel text_inputVideo
+uiparser : 2020-06-11 15:13:46,970 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d6486ee8>
+uiparser : 2020-06-11 15:13:46,971 : DEBUG : push QVideoWidget video_inputVideo
+uiparser : 2020-06-11 15:13:46,971 : DEBUG : pop widget QVideoWidget video_inputVideo
+uiparser : 2020-06-11 15:13:46,971 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d6486ee8>
+uiparser : 2020-06-11 15:13:46,971 : DEBUG : pop layout QVBoxLayout vertical_video_1
+uiparser : 2020-06-11 15:13:46,971 : DEBUG : pop widget QWidget verticalLayoutWidget_2
+uiparser : 2020-06-11 15:13:46,972 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+properties : 2020-06-11 15:13:47,010 : DEBUG : setting property geometry
+properties : 2020-06-11 15:13:47,010 : DEBUG : setting property font
+properties : 2020-06-11 15:13:47,012 : DEBUG : setting property title
+uiparser : 2020-06-11 15:13:47,012 : DEBUG : push QGroupBox groupBoxSelections
+properties : 2020-06-11 15:13:47,013 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:13:47,013 : DEBUG : push QWidget gridLayoutWidget
+properties : 2020-06-11 15:13:47,013 : DEBUG : setting property sizeConstraint
+properties : 2020-06-11 15:13:47,013 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:13:47,013 : DEBUG : push QGridLayout vertical_selection
+properties : 2020-06-11 15:13:47,013 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,014 : DEBUG : setting property value
+properties : 2020-06-11 15:13:47,014 : DEBUG : setting property textVisible
+uiparser : 2020-06-11 15:13:47,014 : DEBUG : push QProgressBar progressBar
+uiparser : 2020-06-11 15:13:47,014 : DEBUG : pop widget QProgressBar progressBar
+uiparser : 2020-06-11 15:13:47,014 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,015 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:13:47,015 : DEBUG : setting property autoFillBackground
+properties : 2020-06-11 15:13:47,015 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,015 : DEBUG : push QPushButton btn_loadVideo
+uiparser : 2020-06-11 15:13:47,015 : DEBUG : pop widget QPushButton btn_loadVideo
+uiparser : 2020-06-11 15:13:47,015 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,016 : DEBUG : setting property sizePolicy
+uiparser : 2020-06-11 15:13:47,016 : DEBUG : push QLineEdit lineEdit_path
+uiparser : 2020-06-11 15:13:47,017 : DEBUG : pop widget QLineEdit lineEdit_path
+uiparser : 2020-06-11 15:13:47,017 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,017 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,018 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,018 : DEBUG : push QPushButton btn_run
+uiparser : 2020-06-11 15:13:47,018 : DEBUG : pop widget QPushButton btn_run
+uiparser : 2020-06-11 15:13:47,019 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,019 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,019 : DEBUG : push QLabel text_model
+uiparser : 2020-06-11 15:13:47,019 : DEBUG : pop widget QLabel text_model
+uiparser : 2020-06-11 15:13:47,020 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,020 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,020 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,020 : DEBUG : push QPushButton btn_results
+uiparser : 2020-06-11 15:13:47,021 : DEBUG : pop widget QPushButton btn_results
+uiparser : 2020-06-11 15:13:47,021 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,021 : DEBUG : setting property spacing
+properties : 2020-06-11 15:13:47,021 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-11 15:13:47,021 : DEBUG : push QVBoxLayout vertical_radios
+properties : 2020-06-11 15:13:47,022 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,022 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,022 : DEBUG : push QRadioButton radio_Bayesian
+uiparser : 2020-06-11 15:13:47,022 : DEBUG : pop widget QRadioButton radio_Bayesian
+uiparser : 2020-06-11 15:13:47,023 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,023 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,023 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,023 : DEBUG : push QRadioButton radio_LSTM
+uiparser : 2020-06-11 15:13:47,023 : DEBUG : pop widget QRadioButton radio_LSTM
+uiparser : 2020-06-11 15:13:47,023 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+properties : 2020-06-11 15:13:47,024 : DEBUG : setting property enabled
+properties : 2020-06-11 15:13:47,024 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,024 : DEBUG : push QRadioButton radio_ConvLSTM
+uiparser : 2020-06-11 15:13:47,024 : DEBUG : pop widget QRadioButton radio_ConvLSTM
+uiparser : 2020-06-11 15:13:47,024 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61fb048>
+uiparser : 2020-06-11 15:13:47,024 : DEBUG : pop layout QVBoxLayout vertical_radios
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : pop layout QGridLayout vertical_selection
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : pop widget QWidget gridLayoutWidget
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : new topwidget <PyQt5.QtWidgets.QGroupBox object at 0x7f71d61f1438>
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : pop widget QGroupBox groupBoxSelections
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+properties : 2020-06-11 15:13:47,026 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:13:47,026 : DEBUG : push QWidget horizontalLayoutWidget
+properties : 2020-06-11 15:13:47,027 : DEBUG : setting property spacing
+properties : 2020-06-11 15:13:47,027 : DEBUG : setting property sizeConstraint
+properties : 2020-06-11 15:13:47,027 : DEBUG : setting property pyuicMargins
+properties : 2020-06-11 15:13:47,027 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-11 15:13:47,027 : DEBUG : push QHBoxLayout horizontallayout_mediaControl
+properties : 2020-06-11 15:13:47,027 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,027 : DEBUG : push QPushButton btn_play
+uiparser : 2020-06-11 15:13:47,027 : DEBUG : pop widget QPushButton btn_play
+uiparser : 2020-06-11 15:13:47,027 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71cc13f288>
+properties : 2020-06-11 15:13:47,028 : DEBUG : setting property orientation
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : push QSlider slider_duration
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : pop widget QSlider slider_duration
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71cc13f288>
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : pop layout QHBoxLayout horizontallayout_mediaControl
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : pop widget QWidget horizontalLayoutWidget
+uiparser : 2020-06-11 15:13:47,028 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+properties : 2020-06-11 15:13:47,029 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:13:47,029 : DEBUG : push QWidget verticalLayoutWidget
+properties : 2020-06-11 15:13:47,029 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:13:47,029 : DEBUG : push QVBoxLayout verticalLayout
+properties : 2020-06-11 15:13:47,029 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:13:47,029 : DEBUG : setting property font
+properties : 2020-06-11 15:13:47,029 : DEBUG : setting property text
+properties : 2020-06-11 15:13:47,030 : DEBUG : setting property scaledContents
+properties : 2020-06-11 15:13:47,030 : DEBUG : setting property alignment
+properties : 2020-06-11 15:13:47,030 : DEBUG : setting property wordWrap
+uiparser : 2020-06-11 15:13:47,030 : DEBUG : push QLabel text_result
+uiparser : 2020-06-11 15:13:47,030 : DEBUG : pop widget QLabel text_result
+uiparser : 2020-06-11 15:13:47,030 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71cc13f558>
+properties : 2020-06-11 15:13:47,033 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:13:47,034 : DEBUG : setting property alternatingRowColors
+uiparser : 2020-06-11 15:13:47,034 : DEBUG : push QTableWidget table_result
+uiparser : 2020-06-11 15:13:47,041 : DEBUG : pop widget QTableWidget table_result
+uiparser : 2020-06-11 15:13:47,041 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71cc13f558>
+uiparser : 2020-06-11 15:13:47,041 : DEBUG : pop layout QVBoxLayout verticalLayout
+uiparser : 2020-06-11 15:13:47,041 : DEBUG : pop widget QWidget verticalLayoutWidget
+uiparser : 2020-06-11 15:13:47,041 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+properties : 2020-06-11 15:13:47,041 : DEBUG : setting property geometry
+properties : 2020-06-11 15:13:47,042 : DEBUG : setting property font
+properties : 2020-06-11 15:13:47,042 : DEBUG : setting property text
+uiparser : 2020-06-11 15:13:47,042 : DEBUG : push QPushButton btn_reset
+uiparser : 2020-06-11 15:13:47,042 : DEBUG : pop widget QPushButton btn_reset
+uiparser : 2020-06-11 15:13:47,042 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+properties : 2020-06-11 15:13:47,044 : DEBUG : setting property geometry
+properties : 2020-06-11 15:13:47,044 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:13:47,044 : DEBUG : setting property palette
+properties : 2020-06-11 15:13:47,046 : DEBUG : setting property html
+uiparser : 2020-06-11 15:13:47,046 : DEBUG : push QTextBrowser text_elapsed
+uiparser : 2020-06-11 15:13:47,046 : DEBUG : pop widget QTextBrowser text_elapsed
+uiparser : 2020-06-11 15:13:47,046 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f71d61e3798>
+uiparser : 2020-06-11 15:13:47,047 : DEBUG : pop widget QWidget centralwidget
+uiparser : 2020-06-11 15:13:47,047 : DEBUG : new topwidget <__main__.MainUI object at 0x7f71de3e9558>
+properties : 2020-06-11 15:13:47,062 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:13:47,062 : DEBUG : push QMenuBar menubar
+uiparser : 2020-06-11 15:13:47,062 : DEBUG : pop widget QMenuBar menubar
+uiparser : 2020-06-11 15:13:47,062 : DEBUG : new topwidget <__main__.MainUI object at 0x7f71de3e9558>
+uiparser : 2020-06-11 15:13:47,063 : DEBUG : push QStatusBar statusbar
+uiparser : 2020-06-11 15:13:47,063 : DEBUG : pop widget QStatusBar statusbar
+uiparser : 2020-06-11 15:13:47,063 : DEBUG : new topwidget <__main__.MainUI object at 0x7f71de3e9558>
+uiparser : 2020-06-11 15:13:47,063 : DEBUG : pop widget MainUI MainWindow
+uiparser : 2020-06-11 15:13:47,063 : DEBUG : new topwidget None
+run_prediction : 2020-06-11 15:14:00,982 : INFO : Running prediction
+run_prediction : 2020-06-11 15:14:00,983 : INFO : Variables set --- Model: seq30_128dense_lost0.58_f1-0.7_100x700.h5, Img_size: 100x700
+run_prediction : 2020-06-11 15:14:00,983 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:14:00,984 : INFO : Changing working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch
+utils : 2020-06-11 15:14:00,984 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:14:00,984 : DEBUG : Directory paths:
+Deepsort_dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch, Final Video: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/final_vid, Bbox Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/bbox_output, Input Vid Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid
+utils : 2020-06-11 15:14:00,984 : INFO : Correcting mobile video metadata
+utils : 2020-06-11 15:14:02,705 : INFO : Calling yolov3_deepsort.py in deepsort_pytorch
+utils : 2020-06-11 15:14:44,600 : INFO : Changing back working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/UI
+utils : 2020-06-11 15:14:44,601 : INFO : Extracting /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4 to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/frames
+utils : 2020-06-11 15:14:54,287 : INFO : Extracting bounding box from: jing
+run_prediction : 2020-06-11 15:14:55,370 : INFO : Loading model: seq30_128dense_lost0.58_f1-0.7_100x700.h5
+run_prediction : 2020-06-11 15:14:57,995 : INFO : Make prediction
+run_prediction : 2020-06-11 15:14:58,032 : INFO : Input shape is: (1, 30, 700, 100, 1)
+run_prediction : 2020-06-11 15:15:32,814 : INFO : Running prediction
+run_prediction : 2020-06-11 15:15:32,815 : INFO : Variables set --- Model: seq30_128dense_lost0.58_f1-0.7_100x700.h5, Img_size: 100x700
+run_prediction : 2020-06-11 15:15:32,815 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/pl_sad.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:15:32,816 : INFO : Changing working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch
+utils : 2020-06-11 15:15:32,816 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/pl_sad.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:15:32,817 : DEBUG : Directory paths:
+Deepsort_dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch, Final Video: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/final_vid, Bbox Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/bbox_output, Input Vid Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid
+utils : 2020-06-11 15:15:32,817 : INFO : Correcting mobile video metadata
+utils : 2020-06-11 15:15:34,940 : INFO : Calling yolov3_deepsort.py in deepsort_pytorch
+prepare_img_data : 2020-06-11 15:16:01,484 : INFO : Prediction sequence length: 30, Min. img size: 50x300
+prepare_img_data : 2020-06-11 15:16:01,484 : WARNING : Make sure the sequence length fits architecture of model
+uiparser : 2020-06-11 15:16:01,570 : DEBUG : uiname is MainWindow
+uiparser : 2020-06-11 15:16:01,571 : DEBUG : toplevel widget is MainUI
+properties : 2020-06-11 15:16:01,571 : DEBUG : setting property geometry
+properties : 2020-06-11 15:16:01,571 : DEBUG : setting property windowTitle
+uiparser : 2020-06-11 15:16:01,571 : DEBUG : push MainUI MainWindow
+uiparser : 2020-06-11 15:16:01,571 : DEBUG : push QWidget centralwidget
+properties : 2020-06-11 15:16:01,571 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:16:01,571 : DEBUG : push QWidget verticalLayoutWidget_2
+properties : 2020-06-11 15:16:01,572 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:16:01,572 : DEBUG : push QVBoxLayout vertical_video_1
+properties : 2020-06-11 15:16:01,572 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:16:01,572 : DEBUG : setting property font
+properties : 2020-06-11 15:16:01,572 : DEBUG : setting property text
+properties : 2020-06-11 15:16:01,575 : DEBUG : setting property scaledContents
+properties : 2020-06-11 15:16:01,575 : DEBUG : setting property alignment
+properties : 2020-06-11 15:16:01,575 : DEBUG : setting property wordWrap
+uiparser : 2020-06-11 15:16:01,575 : DEBUG : push QLabel text_inputVideo
+uiparser : 2020-06-11 15:16:01,575 : DEBUG : pop widget QLabel text_inputVideo
+uiparser : 2020-06-11 15:16:01,575 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefab71f78>
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : push QVideoWidget video_inputVideo
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : pop widget QVideoWidget video_inputVideo
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefab71f78>
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : pop layout QVBoxLayout vertical_video_1
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : pop widget QWidget verticalLayoutWidget_2
+uiparser : 2020-06-11 15:16:01,576 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+properties : 2020-06-11 15:16:01,598 : DEBUG : setting property geometry
+properties : 2020-06-11 15:16:01,599 : DEBUG : setting property font
+properties : 2020-06-11 15:16:01,601 : DEBUG : setting property title
+uiparser : 2020-06-11 15:16:01,601 : DEBUG : push QGroupBox groupBoxSelections
+properties : 2020-06-11 15:16:01,601 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:16:01,601 : DEBUG : push QWidget gridLayoutWidget
+properties : 2020-06-11 15:16:01,601 : DEBUG : setting property sizeConstraint
+properties : 2020-06-11 15:16:01,601 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:16:01,601 : DEBUG : push QGridLayout vertical_selection
+properties : 2020-06-11 15:16:01,601 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,602 : DEBUG : setting property value
+properties : 2020-06-11 15:16:01,602 : DEBUG : setting property textVisible
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : push QProgressBar progressBar
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : pop widget QProgressBar progressBar
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,602 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:16:01,602 : DEBUG : setting property autoFillBackground
+properties : 2020-06-11 15:16:01,602 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : push QPushButton btn_loadVideo
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : pop widget QPushButton btn_loadVideo
+uiparser : 2020-06-11 15:16:01,602 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,603 : DEBUG : setting property sizePolicy
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : push QLineEdit lineEdit_path
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : pop widget QLineEdit lineEdit_path
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,603 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,603 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : push QPushButton btn_run
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : pop widget QPushButton btn_run
+uiparser : 2020-06-11 15:16:01,603 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,603 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : push QLabel text_model
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : pop widget QLabel text_model
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : push QPushButton btn_results
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : pop widget QPushButton btn_results
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property spacing
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-11 15:16:01,604 : DEBUG : push QVBoxLayout vertical_radios
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,604 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : push QRadioButton radio_Bayesian
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : pop widget QRadioButton radio_Bayesian
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,605 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,605 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : push QRadioButton radio_LSTM
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : pop widget QRadioButton radio_LSTM
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+properties : 2020-06-11 15:16:01,605 : DEBUG : setting property enabled
+properties : 2020-06-11 15:16:01,605 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : push QRadioButton radio_ConvLSTM
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : pop widget QRadioButton radio_ConvLSTM
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8e70d8>
+uiparser : 2020-06-11 15:16:01,605 : DEBUG : pop layout QVBoxLayout vertical_radios
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : pop layout QGridLayout vertical_selection
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : pop widget QWidget gridLayoutWidget
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : new topwidget <PyQt5.QtWidgets.QGroupBox object at 0x7efefa8db4c8>
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : pop widget QGroupBox groupBoxSelections
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : push QWidget horizontalLayoutWidget
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property spacing
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property sizeConstraint
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property pyuicMargins
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : push QHBoxLayout horizontallayout_mediaControl
+properties : 2020-06-11 15:16:01,606 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,606 : DEBUG : push QPushButton btn_play
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : pop widget QPushButton btn_play
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efef00e8318>
+properties : 2020-06-11 15:16:01,607 : DEBUG : setting property orientation
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : push QSlider slider_duration
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : pop widget QSlider slider_duration
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efef00e8318>
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : pop layout QHBoxLayout horizontallayout_mediaControl
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : pop widget QWidget horizontalLayoutWidget
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+properties : 2020-06-11 15:16:01,607 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : push QWidget verticalLayoutWidget
+properties : 2020-06-11 15:16:01,607 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-11 15:16:01,607 : DEBUG : push QVBoxLayout verticalLayout
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property font
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property text
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property scaledContents
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property alignment
+properties : 2020-06-11 15:16:01,608 : DEBUG : setting property wordWrap
+uiparser : 2020-06-11 15:16:01,608 : DEBUG : push QLabel text_result
+uiparser : 2020-06-11 15:16:01,608 : DEBUG : pop widget QLabel text_result
+uiparser : 2020-06-11 15:16:01,608 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efef00e85e8>
+properties : 2020-06-11 15:16:01,609 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:16:01,609 : DEBUG : setting property alternatingRowColors
+uiparser : 2020-06-11 15:16:01,609 : DEBUG : push QTableWidget table_result
+uiparser : 2020-06-11 15:16:01,614 : DEBUG : pop widget QTableWidget table_result
+uiparser : 2020-06-11 15:16:01,614 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efef00e85e8>
+uiparser : 2020-06-11 15:16:01,614 : DEBUG : pop layout QVBoxLayout verticalLayout
+uiparser : 2020-06-11 15:16:01,614 : DEBUG : pop widget QWidget verticalLayoutWidget
+uiparser : 2020-06-11 15:16:01,615 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+properties : 2020-06-11 15:16:01,615 : DEBUG : setting property geometry
+properties : 2020-06-11 15:16:01,615 : DEBUG : setting property font
+properties : 2020-06-11 15:16:01,615 : DEBUG : setting property text
+uiparser : 2020-06-11 15:16:01,615 : DEBUG : push QPushButton btn_reset
+uiparser : 2020-06-11 15:16:01,615 : DEBUG : pop widget QPushButton btn_reset
+uiparser : 2020-06-11 15:16:01,616 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+properties : 2020-06-11 15:16:01,616 : DEBUG : setting property geometry
+properties : 2020-06-11 15:16:01,616 : DEBUG : setting property sizePolicy
+properties : 2020-06-11 15:16:01,616 : DEBUG : setting property palette
+properties : 2020-06-11 15:16:01,617 : DEBUG : setting property html
+uiparser : 2020-06-11 15:16:01,617 : DEBUG : push QTextBrowser text_elapsed
+uiparser : 2020-06-11 15:16:01,617 : DEBUG : pop widget QTextBrowser text_elapsed
+uiparser : 2020-06-11 15:16:01,617 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7efefa8cd828>
+uiparser : 2020-06-11 15:16:01,617 : DEBUG : pop widget QWidget centralwidget
+uiparser : 2020-06-11 15:16:01,617 : DEBUG : new topwidget <__main__.MainUI object at 0x7eff02ad55e8>
+properties : 2020-06-11 15:16:01,620 : DEBUG : setting property geometry
+uiparser : 2020-06-11 15:16:01,620 : DEBUG : push QMenuBar menubar
+uiparser : 2020-06-11 15:16:01,620 : DEBUG : pop widget QMenuBar menubar
+uiparser : 2020-06-11 15:16:01,620 : DEBUG : new topwidget <__main__.MainUI object at 0x7eff02ad55e8>
+uiparser : 2020-06-11 15:16:01,621 : DEBUG : push QStatusBar statusbar
+uiparser : 2020-06-11 15:16:01,621 : DEBUG : pop widget QStatusBar statusbar
+uiparser : 2020-06-11 15:16:01,621 : DEBUG : new topwidget <__main__.MainUI object at 0x7eff02ad55e8>
+uiparser : 2020-06-11 15:16:01,621 : DEBUG : pop widget MainUI MainWindow
+uiparser : 2020-06-11 15:16:01,621 : DEBUG : new topwidget None
+run_prediction : 2020-06-11 15:16:17,287 : INFO : Running prediction
+run_prediction : 2020-06-11 15:16:17,287 : INFO : Variables set --- Model: seq30_128dense_lost0.58_f1-0.7_100x700.h5, Img_size: 100x700
+run_prediction : 2020-06-11 15:16:17,287 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/pl_sad.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:16:17,288 : INFO : Changing working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch
+utils : 2020-06-11 15:16:17,288 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/pl_sad.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-11 15:16:17,288 : DEBUG : Directory paths:
+Deepsort_dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch, Final Video: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/final_vid, Bbox Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/bbox_output, Input Vid Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid
+utils : 2020-06-11 15:16:17,289 : INFO : Correcting mobile video metadata
+utils : 2020-06-11 15:16:19,272 : INFO : Calling yolov3_deepsort.py in deepsort_pytorch
+utils : 2020-06-11 15:16:56,390 : INFO : Changing back working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/UI
+utils : 2020-06-11 15:16:56,391 : INFO : Extracting /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/pl_sad.mp4 to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/frames
+utils : 2020-06-11 15:17:05,576 : INFO : Extracting bounding box from: pl_sad
+run_prediction : 2020-06-11 15:17:06,606 : INFO : Loading model: seq30_128dense_lost0.58_f1-0.7_100x700.h5
+run_prediction : 2020-06-11 15:17:07,562 : INFO : Make prediction
+run_prediction : 2020-06-11 15:17:07,593 : INFO : Input shape is: (1, 30, 700, 100, 1)
+prepare_img_data : 2020-06-13 11:04:45,225 : INFO : Prediction sequence length: 30, Min. img size: 50x300
+prepare_img_data : 2020-06-13 11:04:45,226 : WARNING : Make sure the sequence length fits architecture of model
+uiparser : 2020-06-13 11:04:45,364 : DEBUG : uiname is MainWindow
+uiparser : 2020-06-13 11:04:45,366 : DEBUG : toplevel widget is MainUI
+properties : 2020-06-13 11:04:45,366 : DEBUG : setting property geometry
+properties : 2020-06-13 11:04:45,367 : DEBUG : setting property windowTitle
+uiparser : 2020-06-13 11:04:45,368 : DEBUG : push MainUI MainWindow
+uiparser : 2020-06-13 11:04:45,369 : DEBUG : push QWidget centralwidget
+properties : 2020-06-13 11:04:45,369 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:04:45,370 : DEBUG : push QWidget verticalLayoutWidget_2
+properties : 2020-06-13 11:04:45,371 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:04:45,372 : DEBUG : push QVBoxLayout vertical_video_1
+properties : 2020-06-13 11:04:45,374 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:04:45,375 : DEBUG : setting property font
+properties : 2020-06-13 11:04:45,377 : DEBUG : setting property text
+properties : 2020-06-13 11:04:45,387 : DEBUG : setting property scaledContents
+properties : 2020-06-13 11:04:45,388 : DEBUG : setting property alignment
+properties : 2020-06-13 11:04:45,388 : DEBUG : setting property wordWrap
+uiparser : 2020-06-13 11:04:45,388 : DEBUG : push QLabel text_inputVideo
+uiparser : 2020-06-13 11:04:45,389 : DEBUG : pop widget QLabel text_inputVideo
+uiparser : 2020-06-13 11:04:45,389 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f487ff78>
+uiparser : 2020-06-13 11:04:45,390 : DEBUG : push QVideoWidget video_inputVideo
+uiparser : 2020-06-13 11:04:45,390 : DEBUG : pop widget QVideoWidget video_inputVideo
+uiparser : 2020-06-13 11:04:45,390 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f487ff78>
+uiparser : 2020-06-13 11:04:45,390 : DEBUG : pop layout QVBoxLayout vertical_video_1
+uiparser : 2020-06-13 11:04:45,391 : DEBUG : pop widget QWidget verticalLayoutWidget_2
+uiparser : 2020-06-13 11:04:45,391 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+properties : 2020-06-13 11:04:45,425 : DEBUG : setting property geometry
+properties : 2020-06-13 11:04:45,425 : DEBUG : setting property font
+properties : 2020-06-13 11:04:45,427 : DEBUG : setting property title
+uiparser : 2020-06-13 11:04:45,427 : DEBUG : push QGroupBox groupBoxSelections
+properties : 2020-06-13 11:04:45,428 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:04:45,428 : DEBUG : push QWidget gridLayoutWidget
+properties : 2020-06-13 11:04:45,429 : DEBUG : setting property sizeConstraint
+properties : 2020-06-13 11:04:45,429 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:04:45,429 : DEBUG : push QGridLayout vertical_selection
+properties : 2020-06-13 11:04:45,430 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,430 : DEBUG : setting property value
+properties : 2020-06-13 11:04:45,430 : DEBUG : setting property textVisible
+uiparser : 2020-06-13 11:04:45,431 : DEBUG : push QProgressBar progressBar
+uiparser : 2020-06-13 11:04:45,431 : DEBUG : pop widget QProgressBar progressBar
+uiparser : 2020-06-13 11:04:45,431 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,431 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:04:45,431 : DEBUG : setting property autoFillBackground
+properties : 2020-06-13 11:04:45,431 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,431 : DEBUG : push QPushButton btn_loadVideo
+uiparser : 2020-06-13 11:04:45,432 : DEBUG : pop widget QPushButton btn_loadVideo
+uiparser : 2020-06-13 11:04:45,432 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,432 : DEBUG : setting property sizePolicy
+uiparser : 2020-06-13 11:04:45,432 : DEBUG : push QLineEdit lineEdit_path
+uiparser : 2020-06-13 11:04:45,432 : DEBUG : pop widget QLineEdit lineEdit_path
+uiparser : 2020-06-13 11:04:45,433 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,433 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,433 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,433 : DEBUG : push QPushButton btn_run
+uiparser : 2020-06-13 11:04:45,433 : DEBUG : pop widget QPushButton btn_run
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,434 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : push QLabel text_model
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : pop widget QLabel text_model
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,434 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,434 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : push QPushButton btn_results
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : pop widget QPushButton btn_results
+uiparser : 2020-06-13 11:04:45,434 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,435 : DEBUG : setting property spacing
+properties : 2020-06-13 11:04:45,435 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-13 11:04:45,435 : DEBUG : push QVBoxLayout vertical_radios
+properties : 2020-06-13 11:04:45,435 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,435 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,435 : DEBUG : push QRadioButton radio_Bayesian
+uiparser : 2020-06-13 11:04:45,435 : DEBUG : pop widget QRadioButton radio_Bayesian
+uiparser : 2020-06-13 11:04:45,435 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,436 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,436 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : push QRadioButton radio_LSTM
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : pop widget QRadioButton radio_LSTM
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+properties : 2020-06-13 11:04:45,436 : DEBUG : setting property enabled
+properties : 2020-06-13 11:04:45,436 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : push QRadioButton radio_ConvLSTM
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : pop widget QRadioButton radio_ConvLSTM
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45f40d8>
+uiparser : 2020-06-13 11:04:45,436 : DEBUG : pop layout QVBoxLayout vertical_radios
+uiparser : 2020-06-13 11:04:45,437 : DEBUG : pop layout QGridLayout vertical_selection
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : pop widget QWidget gridLayoutWidget
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : new topwidget <PyQt5.QtWidgets.QGroupBox object at 0x7f21f45e94c8>
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : pop widget QGroupBox groupBoxSelections
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : push QWidget horizontalLayoutWidget
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property spacing
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property sizeConstraint
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property pyuicMargins
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : push QHBoxLayout horizontallayout_mediaControl
+properties : 2020-06-13 11:04:45,438 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : push QPushButton btn_play
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : pop widget QPushButton btn_play
+uiparser : 2020-06-13 11:04:45,438 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21ec127318>
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property orientation
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : push QSlider slider_duration
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : pop widget QSlider slider_duration
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21ec127318>
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : pop layout QHBoxLayout horizontallayout_mediaControl
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : pop widget QWidget horizontalLayoutWidget
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : push QWidget verticalLayoutWidget
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:04:45,439 : DEBUG : push QVBoxLayout verticalLayout
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property font
+properties : 2020-06-13 11:04:45,439 : DEBUG : setting property text
+properties : 2020-06-13 11:04:45,440 : DEBUG : setting property scaledContents
+properties : 2020-06-13 11:04:45,440 : DEBUG : setting property alignment
+properties : 2020-06-13 11:04:45,440 : DEBUG : setting property wordWrap
+uiparser : 2020-06-13 11:04:45,440 : DEBUG : push QLabel text_result
+uiparser : 2020-06-13 11:04:45,440 : DEBUG : pop widget QLabel text_result
+uiparser : 2020-06-13 11:04:45,440 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21ec1275e8>
+properties : 2020-06-13 11:04:45,444 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:04:45,444 : DEBUG : setting property alternatingRowColors
+uiparser : 2020-06-13 11:04:45,444 : DEBUG : push QTableWidget table_result
+uiparser : 2020-06-13 11:04:45,456 : DEBUG : pop widget QTableWidget table_result
+uiparser : 2020-06-13 11:04:45,457 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21ec1275e8>
+uiparser : 2020-06-13 11:04:45,457 : DEBUG : pop layout QVBoxLayout verticalLayout
+uiparser : 2020-06-13 11:04:45,457 : DEBUG : pop widget QWidget verticalLayoutWidget
+uiparser : 2020-06-13 11:04:45,457 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+properties : 2020-06-13 11:04:45,457 : DEBUG : setting property geometry
+properties : 2020-06-13 11:04:45,458 : DEBUG : setting property font
+properties : 2020-06-13 11:04:45,458 : DEBUG : setting property text
+uiparser : 2020-06-13 11:04:45,458 : DEBUG : push QPushButton btn_reset
+uiparser : 2020-06-13 11:04:45,458 : DEBUG : pop widget QPushButton btn_reset
+uiparser : 2020-06-13 11:04:45,458 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+properties : 2020-06-13 11:04:45,460 : DEBUG : setting property geometry
+properties : 2020-06-13 11:04:45,460 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:04:45,460 : DEBUG : setting property palette
+properties : 2020-06-13 11:04:45,462 : DEBUG : setting property html
+uiparser : 2020-06-13 11:04:45,462 : DEBUG : push QTextBrowser text_elapsed
+uiparser : 2020-06-13 11:04:45,462 : DEBUG : pop widget QTextBrowser text_elapsed
+uiparser : 2020-06-13 11:04:45,463 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f21f45db828>
+uiparser : 2020-06-13 11:04:45,463 : DEBUG : pop widget QWidget centralwidget
+uiparser : 2020-06-13 11:04:45,463 : DEBUG : new topwidget <__main__.MainUI object at 0x7f21fc7e35e8>
+properties : 2020-06-13 11:04:45,475 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:04:45,475 : DEBUG : push QMenuBar menubar
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : pop widget QMenuBar menubar
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : new topwidget <__main__.MainUI object at 0x7f21fc7e35e8>
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : push QStatusBar statusbar
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : pop widget QStatusBar statusbar
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : new topwidget <__main__.MainUI object at 0x7f21fc7e35e8>
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : pop widget MainUI MainWindow
+uiparser : 2020-06-13 11:04:45,476 : DEBUG : new topwidget None
+prepare_img_data : 2020-06-13 11:08:05,842 : INFO : Prediction sequence length: 30, Min. img size: 50x300
+prepare_img_data : 2020-06-13 11:08:05,842 : WARNING : Make sure the sequence length fits architecture of model
+uiparser : 2020-06-13 11:08:05,924 : DEBUG : uiname is MainWindow
+uiparser : 2020-06-13 11:08:05,925 : DEBUG : toplevel widget is MainUI
+properties : 2020-06-13 11:08:05,925 : DEBUG : setting property geometry
+properties : 2020-06-13 11:08:05,925 : DEBUG : setting property windowTitle
+uiparser : 2020-06-13 11:08:05,925 : DEBUG : push MainUI MainWindow
+uiparser : 2020-06-13 11:08:05,926 : DEBUG : push QWidget centralwidget
+properties : 2020-06-13 11:08:05,926 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:08:05,926 : DEBUG : push QWidget verticalLayoutWidget_2
+properties : 2020-06-13 11:08:05,926 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:08:05,926 : DEBUG : push QVBoxLayout vertical_video_1
+properties : 2020-06-13 11:08:05,926 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:08:05,927 : DEBUG : setting property font
+properties : 2020-06-13 11:08:05,927 : DEBUG : setting property text
+properties : 2020-06-13 11:08:05,930 : DEBUG : setting property scaledContents
+properties : 2020-06-13 11:08:05,930 : DEBUG : setting property alignment
+properties : 2020-06-13 11:08:05,930 : DEBUG : setting property wordWrap
+uiparser : 2020-06-13 11:08:05,930 : DEBUG : push QLabel text_inputVideo
+uiparser : 2020-06-13 11:08:05,930 : DEBUG : pop widget QLabel text_inputVideo
+uiparser : 2020-06-13 11:08:05,930 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f228c8f78>
+uiparser : 2020-06-13 11:08:05,930 : DEBUG : push QVideoWidget video_inputVideo
+uiparser : 2020-06-13 11:08:05,930 : DEBUG : pop widget QVideoWidget video_inputVideo
+uiparser : 2020-06-13 11:08:05,931 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f228c8f78>
+uiparser : 2020-06-13 11:08:05,931 : DEBUG : pop layout QVBoxLayout vertical_video_1
+uiparser : 2020-06-13 11:08:05,931 : DEBUG : pop widget QWidget verticalLayoutWidget_2
+uiparser : 2020-06-13 11:08:05,931 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+properties : 2020-06-13 11:08:05,946 : DEBUG : setting property geometry
+properties : 2020-06-13 11:08:05,946 : DEBUG : setting property font
+properties : 2020-06-13 11:08:05,948 : DEBUG : setting property title
+uiparser : 2020-06-13 11:08:05,948 : DEBUG : push QGroupBox groupBoxSelections
+properties : 2020-06-13 11:08:05,949 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:08:05,949 : DEBUG : push QWidget gridLayoutWidget
+properties : 2020-06-13 11:08:05,949 : DEBUG : setting property sizeConstraint
+properties : 2020-06-13 11:08:05,949 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:08:05,949 : DEBUG : push QGridLayout vertical_selection
+properties : 2020-06-13 11:08:05,949 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,949 : DEBUG : setting property value
+properties : 2020-06-13 11:08:05,950 : DEBUG : setting property textVisible
+uiparser : 2020-06-13 11:08:05,950 : DEBUG : push QProgressBar progressBar
+uiparser : 2020-06-13 11:08:05,950 : DEBUG : pop widget QProgressBar progressBar
+uiparser : 2020-06-13 11:08:05,950 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,950 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:08:05,950 : DEBUG : setting property autoFillBackground
+properties : 2020-06-13 11:08:05,950 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,950 : DEBUG : push QPushButton btn_loadVideo
+uiparser : 2020-06-13 11:08:05,950 : DEBUG : pop widget QPushButton btn_loadVideo
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,951 : DEBUG : setting property sizePolicy
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : push QLineEdit lineEdit_path
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : pop widget QLineEdit lineEdit_path
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,951 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,951 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : push QPushButton btn_run
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : pop widget QPushButton btn_run
+uiparser : 2020-06-13 11:08:05,951 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,951 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : push QLabel text_model
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : pop widget QLabel text_model
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,952 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,952 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : push QPushButton btn_results
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : pop widget QPushButton btn_results
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,952 : DEBUG : setting property spacing
+properties : 2020-06-13 11:08:05,952 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-13 11:08:05,952 : DEBUG : push QVBoxLayout vertical_radios
+properties : 2020-06-13 11:08:05,952 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,953 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : push QRadioButton radio_Bayesian
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : pop widget QRadioButton radio_Bayesian
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,953 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,953 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : push QRadioButton radio_LSTM
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : pop widget QRadioButton radio_LSTM
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+properties : 2020-06-13 11:08:05,953 : DEBUG : setting property enabled
+properties : 2020-06-13 11:08:05,953 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : push QRadioButton radio_ConvLSTM
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : pop widget QRadioButton radio_ConvLSTM
+uiparser : 2020-06-13 11:08:05,953 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f2263d0d8>
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : pop layout QVBoxLayout vertical_radios
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : pop layout QGridLayout vertical_selection
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : pop widget QWidget gridLayoutWidget
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : new topwidget <PyQt5.QtWidgets.QGroupBox object at 0x7f9f226324c8>
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : pop widget QGroupBox groupBoxSelections
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : push QWidget horizontalLayoutWidget
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property spacing
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property sizeConstraint
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property pyuicMargins
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property pyuicSpacing
+uiparser : 2020-06-13 11:08:05,954 : DEBUG : push QHBoxLayout horizontallayout_mediaControl
+properties : 2020-06-13 11:08:05,954 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : push QPushButton btn_play
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : pop widget QPushButton btn_play
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f18040318>
+properties : 2020-06-13 11:08:05,955 : DEBUG : setting property orientation
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : push QSlider slider_duration
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : pop widget QSlider slider_duration
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f18040318>
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : pop layout QHBoxLayout horizontallayout_mediaControl
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : pop widget QWidget horizontalLayoutWidget
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+properties : 2020-06-13 11:08:05,955 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:08:05,955 : DEBUG : push QWidget verticalLayoutWidget
+properties : 2020-06-13 11:08:05,955 : DEBUG : setting property pyuicMargins
+uiparser : 2020-06-13 11:08:05,956 : DEBUG : push QVBoxLayout verticalLayout
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property font
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property text
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property scaledContents
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property alignment
+properties : 2020-06-13 11:08:05,956 : DEBUG : setting property wordWrap
+uiparser : 2020-06-13 11:08:05,956 : DEBUG : push QLabel text_result
+uiparser : 2020-06-13 11:08:05,956 : DEBUG : pop widget QLabel text_result
+uiparser : 2020-06-13 11:08:05,956 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f180405e8>
+properties : 2020-06-13 11:08:05,957 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:08:05,957 : DEBUG : setting property alternatingRowColors
+uiparser : 2020-06-13 11:08:05,957 : DEBUG : push QTableWidget table_result
+uiparser : 2020-06-13 11:08:05,962 : DEBUG : pop widget QTableWidget table_result
+uiparser : 2020-06-13 11:08:05,962 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f180405e8>
+uiparser : 2020-06-13 11:08:05,962 : DEBUG : pop layout QVBoxLayout verticalLayout
+uiparser : 2020-06-13 11:08:05,962 : DEBUG : pop widget QWidget verticalLayoutWidget
+uiparser : 2020-06-13 11:08:05,962 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+properties : 2020-06-13 11:08:05,963 : DEBUG : setting property geometry
+properties : 2020-06-13 11:08:05,963 : DEBUG : setting property font
+properties : 2020-06-13 11:08:05,963 : DEBUG : setting property text
+uiparser : 2020-06-13 11:08:05,963 : DEBUG : push QPushButton btn_reset
+uiparser : 2020-06-13 11:08:05,963 : DEBUG : pop widget QPushButton btn_reset
+uiparser : 2020-06-13 11:08:05,963 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+properties : 2020-06-13 11:08:05,964 : DEBUG : setting property geometry
+properties : 2020-06-13 11:08:05,964 : DEBUG : setting property sizePolicy
+properties : 2020-06-13 11:08:05,964 : DEBUG : setting property palette
+properties : 2020-06-13 11:08:05,964 : DEBUG : setting property html
+uiparser : 2020-06-13 11:08:05,965 : DEBUG : push QTextBrowser text_elapsed
+uiparser : 2020-06-13 11:08:05,965 : DEBUG : pop widget QTextBrowser text_elapsed
+uiparser : 2020-06-13 11:08:05,965 : DEBUG : new topwidget <PyQt5.QtWidgets.QWidget object at 0x7f9f22624828>
+uiparser : 2020-06-13 11:08:05,965 : DEBUG : pop widget QWidget centralwidget
+uiparser : 2020-06-13 11:08:05,965 : DEBUG : new topwidget <__main__.MainUI object at 0x7f9f2a82c5e8>
+properties : 2020-06-13 11:08:05,968 : DEBUG : setting property geometry
+uiparser : 2020-06-13 11:08:05,968 : DEBUG : push QMenuBar menubar
+uiparser : 2020-06-13 11:08:05,968 : DEBUG : pop widget QMenuBar menubar
+uiparser : 2020-06-13 11:08:05,968 : DEBUG : new topwidget <__main__.MainUI object at 0x7f9f2a82c5e8>
+uiparser : 2020-06-13 11:08:05,969 : DEBUG : push QStatusBar statusbar
+uiparser : 2020-06-13 11:08:05,969 : DEBUG : pop widget QStatusBar statusbar
+uiparser : 2020-06-13 11:08:05,969 : DEBUG : new topwidget <__main__.MainUI object at 0x7f9f2a82c5e8>
+uiparser : 2020-06-13 11:08:05,969 : DEBUG : pop widget MainUI MainWindow
+uiparser : 2020-06-13 11:08:05,969 : DEBUG : new topwidget None
