@@ -1,0 +1,114 @@
+{
+    "RGB_VID_001_1_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 187,
+            "First frame appearance": 3,
+            "Last frame appearance": 189,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_002_1_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 154,
+            "First frame appearance": 3,
+            "Last frame appearance": 156,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_003_1_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 172,
+            "First frame appearance": 3,
+            "Last frame appearance": 174,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_004_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 138,
+            "First frame appearance": 3,
+            "Last frame appearance": 140,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_005_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 99,
+            "First frame appearance": 3,
+            "Last frame appearance": 101,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_006_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 206,
+            "First frame appearance": 3,
+            "Last frame appearance": 208,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_007_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 130,
+            "First frame appearance": 3,
+            "Last frame appearance": 132,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_008_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 137,
+            "First frame appearance": 3,
+            "Last frame appearance": 139,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_009_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 88,
+            "First frame appearance": 3,
+            "Last frame appearance": 90,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_010_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 103,
+            "First frame appearance": 3,
+            "Last frame appearance": 105,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_011_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 117,
+            "First frame appearance": 3,
+            "Last frame appearance": 119,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_012_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 121,
+            "First frame appearance": 3,
+            "Last frame appearance": 123,
+            "Number of broken sequence": 0
+        }
+    },
+    "RGB_VID_013_0_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 61,
+            "First frame appearance": 3,
+            "Last frame appearance": 63,
+            "Number of broken sequence": 0
+        }
+    },
+    "output_bbox.pkl": {
+        "id_001": {
+            "Number of frames detected": 187,
+            "First frame appearance": 3,
+            "Last frame appearance": 189,
+            "Number of broken sequence": 0
+        }
+    }
+}

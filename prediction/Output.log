@@ -1,0 +1,19 @@
+prepare_img_data : 2020-06-13 10:58:12,227 : INFO : Prediction sequence length: 30, Min. img size: 50x300
+prepare_img_data : 2020-06-13 10:58:12,227 : WARNING : Make sure the sequence length fits architecture of model
+run_prediction : 2020-06-13 10:58:12,436 : INFO : Input video filename: jing.mp4
+run_prediction : 2020-06-13 10:58:12,437 : INFO : Processed frames directory: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+run_prediction : 2020-06-13 10:58:12,437 : INFO : Running prediction
+run_prediction : 2020-06-13 10:58:12,437 : INFO : Variables set --- Model: seq30_128dense_lost0.58_f1-0.7_100x700.h5, Img_size: 100x700
+run_prediction : 2020-06-13 10:58:12,438 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-13 10:58:12,439 : INFO : Changing working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch
+utils : 2020-06-13 10:58:12,439 : INFO : Running Deepsort on /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4. output to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output
+utils : 2020-06-13 10:58:12,439 : DEBUG : Directory paths:
+Deepsort_dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/deep_sort_pytorch, Final Video: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/final_vid, Bbox Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/bbox_output, Input Vid Dir: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid
+utils : 2020-06-13 10:58:12,440 : INFO : Correcting mobile video metadata
+utils : 2020-06-13 10:58:14,249 : INFO : Calling yolov3_deepsort.py in deepsort_pytorch
+utils : 2020-06-13 11:00:14,775 : INFO : Changing back working directory to: /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction
+utils : 2020-06-13 11:00:14,775 : INFO : Extracting /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/input_vid/jing.mp4 to /home/jia/jiawen/uni_materials/Y3S2/fyp_project/fyp_team4c/prediction/output/frames
+utils : 2020-06-13 11:00:29,349 : INFO : Extracting bounding box from: jing
+run_prediction : 2020-06-13 11:00:30,353 : INFO : Loading model: seq30_128dense_lost0.58_f1-0.7_100x700.h5
+run_prediction : 2020-06-13 11:00:32,928 : INFO : Make prediction
+run_prediction : 2020-06-13 11:00:33,004 : INFO : Input shape is: (1, 30, 700, 100, 1)
